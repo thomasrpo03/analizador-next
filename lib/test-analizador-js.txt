@@ -1,0 +1,62 @@
+// Ejemplo 1: Declaración de Variables
+var x = 10;
+let y = 5;
+const z = 2;
+
+// Ejemplo 2: Estructura de Control
+if (x > 0) {
+    y = 10;
+} else {
+    y = -10;
+}
+
+// Ejemplo 3: Función
+function add(a, b) {
+    return a + b;
+}
+
+// Ejemplo 4: Operadores y Expresiones
+var result = (a + b) * c / d;
+var isEqual = (x === y) || (z != w);
+
+// Ejemplo 5: Ciclo For
+for (var i = 0; i < 5; i++) {
+    sum = sum + i;
+}
+
+// Ejemplo 6: Ciclo While
+while (count < 10) {
+    total = total + count;
+    count++;
+}
+
+// Ejemplo 7: Uso de Array
+var numbers = [1, 2, 3, 4, 5];
+var doubled = numbers.map(function(num) {
+    return num * 2;
+});
+
+// Ejemplo 8: Objeto Literal
+var person = {
+    name: "John",
+    age: 30,
+    address: {
+        street: "123 Main St",
+        city: "New York"
+    }
+};
+
+// Ejemplo 9: Template Strings
+var greeting = `Hello, ${person.name}!`;
+
+// Ejemplo 10: Uso de Promesas
+function fetchData() {
+    return fetch('https://api.example.com/data')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+}

@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Analizador Léxico de JavaScript
 
-## Getting Started
+Este proyecto implementa un analizador léxico básico utilizando React y otras tecnologías como Next.js, Tailwind CSS y Shadcn UI. El analizador léxico se utiliza para dividir el código fuente en tokens y resaltar las palabras clave, operadores y símbolos.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Este proyecto es parte de la asignatura de Compiladores en la Fundación Universitaria María Cano. El objetivo es familiarizarse con los conceptos de análisis léxico y las tecnologías web modernas. El analizador léxico desarrollado aquí es una implementación básica y podría requerir ajustes adicionales para manejar todos los casos posibles.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [React]
+- [Next.js]
+- [Tailwind CSS]
+- [Shadcn UI] 
+- [TypeScript]
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalación
 
-## Learn More
+1. Clona el repositorio
+2. Ingresa al directorio del proyecto
+3. Instala las dependencias con `pnpm install`
 
-To learn more about Next.js, take a look at the following resources:
+## Uso
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Ejecuta la aplicación: `pnpm dev`
+2. Abre tu navegador y accede a: `http://localhost:3000`
+3. Ingresa el código fuente en el editor y haz clic en "Analizar" para analizarlo.
+4. Los tokens se mostrarán resaltados en la lista.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Ejemplos de Código Fuente
 
-## Deploy on Vercel
+Puedes utilizar los ejemplos proporcionados en este [documento](test-analizador-js.txt) ubicado en la carpeta lib para probar el analizador léxico en diferentes situaciones.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuciones
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Si deseas contribuir al proyecto, ¡estamos abiertos a colaboración! Puedes hacerlo a través de pull requests y creando issues para discutir mejoras o problemas encontrados.
+
+
+---
+
+Desarrollado por [Thomas Restrepo Orrego](https://github.com/thomasrpo03)
