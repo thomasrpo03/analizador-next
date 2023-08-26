@@ -29,7 +29,7 @@ Este proyecto es parte de la asignatura de Compiladores en la Fundación Univers
 
 ## Ejemplos de Código Fuente
 
-Puedes utilizar los ejemplos proporcionados en este [documento](lib/test-analizador-js.txt) ubicado en la carpeta lib para probar el analizador léxico en diferentes situaciones.
+Puedes utilizar los ejemplos proporcionados en el documento test-analizador-js.txt ubicado en la carpeta lib para probar el analizador léxico en diferentes situaciones.
 
 ## Contribuciones
 
