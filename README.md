@@ -31,11 +31,6 @@ Este proyecto es parte de la asignatura de Compiladores en la Fundación Univers
 
 Puedes utilizar los ejemplos proporcionados en el documento test-analizador-js.txt ubicado en la carpeta lib para probar el analizador léxico en diferentes situaciones.
 
-## Contribuciones
-
-Si deseas contribuir al proyecto, ¡estamos abiertos a colaboración! Puedes hacerlo a través de pull requests y creando issues para discutir mejoras o problemas encontrados.
-
-
 ---
 
 Desarrollado por [Thomas Restrepo Orrego](https://github.com/thomasrpo03)
