@@ -8,7 +8,7 @@ const Footer: React.FC<FooterProps> = ({ author }) => {
 
   return (
     <footer className="flex w-full py-4 px-9 justify-end border-t-2">
-      Desarrollado por {author} - {currentYear}
+     {author} - {currentYear}
     </footer>
   );
 };
