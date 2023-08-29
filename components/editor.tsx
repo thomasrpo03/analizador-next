@@ -37,7 +37,7 @@ function Editor({ onSubmit, onReset }: EditorProps) {
           className="font-black text-lg"
           onClick={handleReset}
         >
-          Reset
+          Reiniciar
         </Button>
       </div>
     </div>
